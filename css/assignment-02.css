@@ -1,0 +1,157 @@
+* {
+  /* SANITIZE */
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: gray;
+}
+
+main {
+  background-color: white;
+  border: 1px solid gray;
+  width: auto;
+  height: auto;
+  border: 1px solid white;
+}
+
+header {
+  background-image: url("../static/img/sample.jpg");
+  height: auto;
+  width: auto;
+}
+
+header>h1 {
+  color: white;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 3%;
+}
+
+header>h3 {
+  color: white;
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: red;
+  margin-bottom: 3%;
+}
+
+nav>ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav>ul>li {
+  width: 100%;
+  display: flex;
+  border: 1px solid white;
+}
+
+nav>ul>li>a {
+  width: 100%;
+  padding: 10%;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: red;
+  color: green; 
+}
+
+main>section {
+  display: flex;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+main>section>article:first-child {
+  background-color: gray;
+  padding-right: 3%;
+}
+
+main>section>article:first-child h2 {
+  padding-bottom: 3%;
+  color: black;
+}
+
+main>section>article:first-child p {
+  padding-bottom: 3%;
+  color: black;
+  text-align: justify;
+}
+
+main>section>article:first-child>aside:last-child {
+  background-color: rgb(192,192,192);
+  padding: 2%;
+}
+
+main>section>article:first-child>aside:last-child>p {
+  color: white;
+}
+section>article:last-child {
+  background-color: rgba(192,192,192,0.2);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  padding: 2%;
+}
+
+section>article:last-child>aside:last-child {
+  background-color: #b11226;
+  width: auto;
+  padding: 5%;
+  /* margin-bottom: 5%; */
+}
+
+section>article:last-child>aside:last-child ul {
+  padding-left: 2%;
+  padding-bottom: 5%;
+  list-style-type: none;
+}
+
+main>section>article:last-child>aside:last-child h3 {
+  padding-bottom: 5%;
+  color: white;
+}
+
+main>section>article:last-child>aside:last-child p {
+  padding-bottom: 10%;
+  color: white;
+  text-align: justify;
+}
+
+time {
+  font-weight: bold;
+  padding-right: 5%;
+}
+
+footer {
+  background-color: darkolivegreen;
+  width: auto;
+  height: auto;
+}
+
+footer>section>p {
+  color: whitesmoke;
+  text-align: center;
+  padding: 1%;
+}
+
+.left {
+  width: 65%;
+}
+
+.right {
+  width: 35%;
+}

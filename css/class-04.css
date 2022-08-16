@@ -1,0 +1,55 @@
+* {
+    /* SANITIZE */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* 
+<> Angle brackets
+() Brackerts
+[] square brackets
+{} curly brackets
+*/
+
+header {
+    height: 30vh;
+    border: 1px solid black;
+    background-image: url("../img/sample.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(50, 50, 50, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    height: 45vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+article {
+    height: 100%;
+    width: 100%;
+    color: black;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 50, 50, 0.5);
+}
