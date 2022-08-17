@@ -1,0 +1,87 @@
+* {
+  /* SANITIZE */
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.left {
+  width: 65%;
+}
+
+.left>header h1 {
+  font-size: 40px;
+  padding: 3%;
+  padding-left: 0%;
+  color: olivedrab;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.left>header span {
+  color: firebrick;
+}
+
+.left aside {
+  background-image: url("../static/img/landscape_00000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+aside h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.left h2 {
+  color: forestgreen;
+  text-transform: uppercase;
+  font-size: 24px;
+  /* row-gap: 2vh; */
+  padding-top: 2vh;
+}
+
+.left h3 {
+  /* row-gap: 2vh; */
+  padding-bottom: 2vh;
+}
+
+.left p {
+  line-height: 1.5;
+  padding-bottom: 2vh;
+}
+
+.right {
+  width: 35%;
+}
+
+nav>ul {
+  background-color: darkgrey;
+  padding-left: 15%;
+  list-style-type: circle;
+}
+
+nav li {
+  border-bottom: 1px solid white;
+}
+
+nav>ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}

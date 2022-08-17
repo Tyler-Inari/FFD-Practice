@@ -1,0 +1,22 @@
+* {
+  /* SANITIZE */
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {}
+
+table {}
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+.red {
+  background-color: firebrick;
+}
+
+tbody td:nth-child(even) {
+  background-color: gainsboro;
+}
