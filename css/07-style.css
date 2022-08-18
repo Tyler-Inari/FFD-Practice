@@ -1,0 +1,136 @@
+* {
+    /* SANITIZE */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+header article {
+    background-image: url("../static/img/landscape_00006.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    background-color: firebrick;
+    height: 5vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+nav li {
+    list-style-type: none;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    padding: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    background-color: orangered;
+    color: black;
+}
+
+main {
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.middle {
+    width: 60%;
+    height: 80%;
+}
+
+.middle>h2 {
+    color: burlywood;
+}
+
+.middle span {
+    color: orange;
+}
+
+.middle>article:first-child {
+    display: inline-flex;
+}
+
+.middle>article:last-child {
+    display: inline-flex;
+}
+
+/* .middle>article:last-child {
+    display: inline-flex;
+} */
+
+figure {
+    width: 20%;
+}
+
+img {
+    width: 100%;
+}
+
+blockquote {
+    color: darkkhaki;
+    font-style: italic;
+    width: 60%;
+}
+
+/* .middle>article:first-child>figure {
+    float: right;
+} */
+
+.middle>article>figure {
+    float: right;
+}
+
+.middle>article:last-child>figure {
+    float: left;
+}
+
+.left {
+    background-color: coral;
+    width: 20%;
+    height: 80%;
+}
+
+.right {
+    background-color: crimson;
+    width: 20%;
+    height: 80%;
+}
+
+/* main>section:last-child {
+    width: 100%;
+    height: 20%;
+} */
