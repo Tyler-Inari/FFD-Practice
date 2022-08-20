@@ -7,52 +7,70 @@
 
 
 body {
-    background-color: whitesmoke;
+    background-color: beige;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom: 2vh;
+}
+
+header {
+    background-color: orangered;
+    border-bottom: 5px solid firebrick;
 }
 
 header article {
-    background-image: url("../static/img/landscape_00006.jpg");
+    /* background-image: url("../static/img/landscape_00006.jpg"); */
+    background-image: url("../static/img/smartphone_00003.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     align-items: center;
 }
 
 header h1 {
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.6);
     color: white;
     width: 100%;
+    height: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
     background-color: firebrick;
-    height: 5vh;
+    display: flex;
+    justify-content: center;
+    border-top: 5px solid rgba(255, 255, 255, 0.6);
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-    width: 100%;
     height: 100%;
+    width: 80%;
 }
 
 nav li {
-    list-style-type: none;
+    display: flex;
+    width: 100%;
     justify-content: center;
-    border: 1px solid whitesmoke;
-    padding: 1%;
 }
 
 nav a {
+    border-right: 1px solid whitesmoke;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     width: 100%;
-    height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10%;
+    text-align: center;
 }
 
 nav a:hover {
@@ -61,19 +79,31 @@ nav a:hover {
 }
 
 main {
-    /* background-color: chocolate; */
+    /* background-color: whitesmoke; */
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .middle {
     width: 60%;
     height: 80%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-right: 2px dotted firebrick;
+    border-left: 2px dotted firebrick;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
 }
 
 .middle>h2 {
     color: burlywood;
+}
+
+.middle p {
+    width: 100%;
 }
 
 .middle span {
@@ -81,19 +111,13 @@ main {
 }
 
 .middle>article:first-child {
-    display: inline-flex;
+    display: flex;
 }
-
-.middle>article:last-child {
-    display: inline-flex;
-}
-
-/* .middle>article:last-child {
-    display: inline-flex;
-} */
 
 figure {
-    width: 20%;
+    width: 40%;
+    float: right;
+    margin: 2%;
 }
 
 img {
@@ -101,36 +125,66 @@ img {
 }
 
 blockquote {
-    color: darkkhaki;
+    color: orange;
     font-style: italic;
     width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 /* .middle>article:first-child>figure {
     float: right;
 } */
 
-.middle>article>figure {
-    float: right;
-}
-
 .middle>article:last-child>figure {
     float: left;
 }
 
 .left {
-    background-color: coral;
-    width: 20%;
+    width: 15%;
     height: 80%;
+    padding: 2%;
+}
+
+.left ul {
+    padding-left: 10%;
+    padding-bottom: 10%;
 }
 
 .right {
-    background-color: crimson;
-    width: 20%;
+    width: 15%;
     height: 80%;
+    padding: 2%;
 }
 
-/* main>section:last-child {
+.right ul {
+    padding: 10%;
+}
+
+main li a {
+    text-decoration: none;
+    color: brown;
+}
+
+main>section:last-child {
     width: 100%;
     height: 20%;
-} */
+}
+
+main>section:last-child>fieldset {
+    width: 20%;
+    margin: 1%;
+    float: right;
+}
+
+footer {
+    background-color: orangered;
+    border-top: 2px solid brown;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
