@@ -1,0 +1,217 @@
+* {
+    /* Sanitize */
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    background-color: rgb(255, 220, 190);
+    padding: 3%;
+}
+
+header {
+    display: flex;
+}
+
+figure {
+    border: 10px solid whitesmoke;
+    width: 70%;
+    height: fit-content;
+}
+
+img {
+    width: 100%;
+}
+
+header article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6vh;
+    padding: 3%;
+    padding-top: 0%;
+}
+
+header aside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+h1 {
+    color: darkblue;
+}
+
+header span {
+    color: orangered;
+}
+
+header time {
+    color: orangered;
+}
+
+header blockquote {
+    width: 60%;
+}
+
+header p {
+    color: gray;
+    width: 80%;
+}
+
+nav {
+    background-color: orangered;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+}
+
+nav li {
+    display: flex;
+    width: 100%;
+}
+
+nav a {
+    border-right: 1px solid whitesmoke;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+}
+
+nav a:hover {
+    background-color: darkblue;
+}
+
+.content {
+    display: flex;
+}
+
+.content h2 {
+    color: darkblue;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    width: 25%;
+    padding: 1%;
+}
+
+.left ul {
+    width: 100%;
+}
+
+.left li {
+    list-style-type: none;
+    display: flex;
+}
+
+.left a {
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 3%;
+}
+
+.middle {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    width: 50%;
+    padding: 1%;
+    align-items: center;
+}
+
+.middle span {
+    color: orangered;
+}
+
+.middle article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle blockquote {
+    color: goldenrod;
+    width: 80%;
+}
+
+.middle p {
+    width: 100%;
+}
+
+.middle article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    width: 23%;
+    padding: 1%;
+}
+
+.right p {
+    width: 100%;
+}
+
+.right ul {
+    width: 100%;
+    padding-left: 20%;
+}
+
+.right li {
+    width: 100%;
+}
+
+.right a {
+    text-decoration: none;
+    color: orangered;
+    width: 100%;
+}
+
+footer {
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    width: 100%;
+    /* padding-right: 0%; */
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer p {
+    padding: 1%;
+    color: ghostwhite;
+}
+
+footer p:first-child {
+    padding-bottom: 0%;
+}
+
+footer p:last-child {
+    padding-top: 0%;
+}
