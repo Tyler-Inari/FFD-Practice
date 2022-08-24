@@ -28,6 +28,13 @@ header p {
     color: white;
 }
 
+h2 {
+    color: whitesmoke;
+    border-bottom: 2px dotted whitesmoke;
+    padding-bottom: 3px;
+    margin-bottom: 8%;
+}
+
 nav {
     background-color: rgb(0, 90, 146);
     width: 100%;
@@ -69,52 +76,120 @@ main {
 .left {
     background-color: rgb(0, 133, 216);
     width: 60%;
+    padding: 5%;
 }
 
 .left article {
-    display: flex;
-    flex-direction: column;
     row-gap: 2vh;
 }
 
-figure {
+#figure-left {
     width: 30%;
     float: left;
+    padding: 3%;
+}
+
+#figure-right {
+    width: 30%;
+    float: right;
+    padding: 3%;
 }
 
 img {
     width: 100%;
 }
 
+
 .left p {
-    width: 70%;
+    width: 90%;
+    padding: 3%;
 }
 
 .middle {
     background-color: rgb(0, 90, 146);
     width: 20%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
 }
 
-/*
+
 .middle ul {
     list-style: none;
 }
 
-.middle>article>h2 {
-    border-bottom: 1px dotted white;
-}
-
 .middle a {
+    color: whitesmoke;
     text-decoration: none;
-    line-height: 30px;
-} */
+    line-height: 25px;
+}
 
 .right {
     background-color: rgb(21, 67, 96);
     width: 20%;
+    padding: 3%;
+}
+
+.right aside {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right aside input {
+    width: 80%;
+    margin: 3%;
+}
+
+.right aside input:last-child {
+    width: 50%;
+    margin: 3%;
 }
 
 footer {
+    background-color: rgb(21, 67, 96);
     padding-left: 10vw;
     padding-right: 10vw;
+}
+
+footer section {
+    display: flex;
+}
+
+footer h3 {
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    width: 20%;
+    padding: 3%;
+}
+
+footer article:last-child {
+    width: 40%;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer p {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer section p {
+    width: 100%;
+    text-align: center;
 }
