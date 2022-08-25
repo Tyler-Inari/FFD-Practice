@@ -10,9 +10,6 @@ html {
 
 body {
     background-color: rgb(175, 215, 240);
-    /* padding: 2%; */
-    /* padding-left: 2%; */
-    /* padding-right: 2%; */
 }
 
 header {
@@ -24,10 +21,14 @@ header {
 
 header h1 {
     background-color: rgb(45, 120, 170);
-    color: rgb(175, 215, 240);
     width: 100%;
     padding: 1%;
     padding-left: 5vw;
+}
+
+header h1>a {
+    color: rgb(175, 215, 240);
+    text-decoration: none;
 }
 
 header article {
@@ -56,12 +57,15 @@ header aside {
 }
 
 header h3 {
-    width: 100%;
+    color: rgb(0, 100, 160);
+    width: 60%;
     text-align: center;
+    font-size: 36px;
 }
 
 blockquote {
-    width: 80%;
+    color: rgb(45, 120, 170);
+    width: 60%;
     text-align: center;
 }
 
@@ -81,7 +85,7 @@ header li {
     display: flex;
 }
 
-header a {
+header nav a {
     width: 100%;
     padding: 5%;
     text-decoration: none;
@@ -175,10 +179,11 @@ details {
 }
 
 .work-title h4 {
+    color: rgb(175, 215, 240);
     width: 90%;
     height: fit-content;
-    font-size: 24px
-        /* text-align: center; */
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .work-content {
@@ -250,21 +255,52 @@ td li {
 }
 
 .right ul {
-    padding-left: 3vw;
+    padding-left: 1vw;
 }
 
 #Skills {
     display: flex;
     flex-direction: column;
-    row-gap: 1vh;
+    row-gap: 2vh;
 }
 
+#Skills ul {
+    /* width: fit-content; */
+    width: 50%;
+}
+
+#Skills li {
+    background-color: rgb(45, 120, 170);
+    color: rgb(200, 230, 255);
+    display: flex;
+    width: 100%;
+    padding: 1vh;
+    margin: 1vh;
+    border: 3px solid rgb(200, 230, 255);
+    border-radius: 5px;
+}
+
+.list-title {
+    color: rgb(0, 100, 160);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Skills summary {
+    margin-bottom: 1vh;
+}
 
 #Contacts {
     display: flex;
     flex-direction: column;
-    row-gap: 1vh;
+    row-gap: 2vh;
     /* text-decoration: underline; */
+}
+
+#Contacts ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
 }
 
 #Contacts a {
