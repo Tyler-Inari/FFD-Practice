@@ -5,11 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body {
-    /* background-color: rgb(0, 133, 216); */
-    /* padding-left: 10%; */
-    /* padding-right: 10%; */
-}
+body {}
 
 header {
     background-color: rgb(21, 67, 96);
@@ -37,7 +33,8 @@ h2 {
 
 nav {
     background-color: rgb(0, 90, 146);
-    width: 100%;
+    width: fit-content;
+    /* width: 100%; */
     display: flex;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -45,7 +42,7 @@ nav {
 
 nav ul {
     display: flex;
-    width: 60%;
+    width: 100%;
 }
 
 nav li {
@@ -105,6 +102,15 @@ img {
     padding: 3%;
 }
 
+.left ol {
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.left a {
+    color: white;
+}
+
 .middle {
     background-color: rgb(0, 90, 146);
     width: 20%;
@@ -114,6 +120,11 @@ img {
     row-gap: 2vh;
 }
 
+button {
+    background-color: rgb(21, 67, 96);
+    color: rgb(215, 215, 215);
+    padding: 10px 12px 10px 12px;
+}
 
 .middle ul {
     list-style: none;
@@ -129,6 +140,9 @@ img {
     background-color: rgb(21, 67, 96);
     width: 20%;
     padding: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
 }
 
 .right aside {
@@ -139,13 +153,40 @@ img {
 }
 
 .right aside input {
-    width: 80%;
+    width: 90%;
     margin: 3%;
 }
 
 .right aside input:last-child {
     width: 50%;
     margin: 3%;
+}
+
+.right aside a {
+    color: white;
+}
+
+.right article:last-child {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: flex-end;
+}
+
+
+
+.right article:last-child input {
+    width: 100%;
+}
+
+.right article:last-child input:last-child {
+    width: 50%;
+}
+
+.right textarea {
+    width: 100%;
 }
 
 footer {
@@ -192,4 +233,12 @@ footer p {
 footer section p {
     width: 100%;
     text-align: center;
+}
+
+footer section a {
+    color: white;
+}
+
+footer section:last-child {
+    padding: 2%;
 }

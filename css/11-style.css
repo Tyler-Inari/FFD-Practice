@@ -1,0 +1,209 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "JetBrains Mono";
+}
+
+header {
+    background-color: rgb(120, 120, 120);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header article {
+    background-image: url("../static/img/landscape_00005.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+header h3 {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    width: 80%;
+    display: flex;
+}
+
+nav li {
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    /* height: 18vh; */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: rgb(120, 120, 120);
+    color: rgb(235, 235, 235);
+}
+
+main {
+    background-color: rgb(120, 120, 120);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 2vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+main h2 {
+    background-color: rgb(0, 35, 160);
+    color: rgb(235, 235, 235);
+    padding: 3vh;
+    margin: 1vh;
+}
+
+.purple {
+    background-color: rgb(160, 0, 150);
+}
+
+.left {
+    /* background-color: rgb(235, 235, 235); */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.left article {
+    background-color: rgb(235, 235, 235);
+}
+
+.left aside {
+    width: 100%;
+    display: block;
+}
+
+.left figure {
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left p {
+    width: 96%;
+    padding: 2%;
+}
+
+.left ul {
+    /* width: 100%; */
+    width: 80%;
+    display: flex;
+}
+
+.left li {
+    width: 100%;
+    list-style-type: none;
+    color: rgb(120, 120, 120);
+    padding: 2%;
+}
+
+.left a {
+    width: 100%;
+    color: black;
+}
+
+.right {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.right article {
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+}
+
+.right aside {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1vw;
+    column-gap: 1vw;
+}
+
+.right div {
+    background-color: rgb(120, 120, 120);
+    width: 124px;
+    height: 124px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.right div p {
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+}
+
+/* .right figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right img {
+    width: 40%;
+    padding: 5%;
+} */
+
+.right ul {
+    width: 100%;
+    padding: 5% 0% 5% 15%;
+}
+
+.right p {
+    padding: 5% 5% 30% 5%;
+}
+
+footer {
+    background-color: rgb(185, 185, 185);
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+}
