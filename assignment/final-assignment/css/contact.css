@@ -1,0 +1,111 @@
+header article {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(50, 50, 50);
+    box-sizing: border-box;
+}
+
+article h1,
+article h4 {
+    color: rgb(50, 50, 50);
+}
+
+.contatiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section article {
+    width: 80%;
+    height: 100%;
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 60%;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+
+select,
+input,
+table,
+textarea {
+    margin-bottom: 3%;
+    padding: 0.5%;
+    box-shadow: 3px 3px 3px 3px rgba(20, 20, 20, 0.35);
+    border-radius: 5px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal>input {
+    width: 45%;
+}
+
+table {
+    border: 1px dotted rgb(255, 255, 255);
+}
+
+caption {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-bottom: 1%;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    border: 1px dotted rgb(255, 255, 255);
+    padding: 1%;
+    width: 25%;
+}
+
+td {
+    text-align: center;
+    border: 1px dotted rgb(255, 255, 255);
+    padding: 1%;
+}
+
+.horizontalButton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontalButton>input {
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    width: 100px;
+    box-shadow: 3px 3px 3px 3px rgba(20, 20, 20, 0.35);
+}
+
+[type=reset] {
+    background-color: rgb(140, 20, 20);
+    border: 1px solid rgb(110, 5, 5);
+}
+
+[type=submit] {
+    background-color: rgb(20, 20, 140);
+    border: 1px solid rgb(5, 5, 110);
+}
+
+/* Start reqired */
+.required:after {
+    content: "*";
+    color: rgb(140, 20, 20);
+}
+
+/* End required */
