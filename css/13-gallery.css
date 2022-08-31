@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "JetBrains Mono";
+    text-decoration: none;
+}
+
+
+header {
+    background-color: rgb(100, 200, 255);
+    height: 35vh;
+    display: flex;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    height: 35vh;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+header section {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    height: 35vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header article {
+    background-color: rgba(15, 15, 15, 0.8);
+    /* z-index: 3; */
+}
+
+header>article:first-child {
+    width: 50%;
+}
+
+header>article:last-child {
+    width: 50%;
+}
+
+header figure {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header img {
+    width: 100%;
+}
+
+header figcaption {
+    width: 100%;
+}
+
+.gallery {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5vh;
+}
+
+.gallery h2 {
+    width: fit-content;
+    color: rgb(100, 200, 255);
+    padding-bottom: 5%;
+    border-bottom: 4px solid rgb(100, 200, 255);
+}
+
+.gallery>article:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5vh;
+    row-gap: 5vh;
+}
+
+.gallery figure {
+    width: 40%;
+}
+
+.gallery img {
+    width: 100%;
+}

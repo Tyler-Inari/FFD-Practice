@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    <header>
+        <article>
+            <h1>Hello Contact!</h1>
+            <h4>tyl contact</h4>
+        </article>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="cliPrompt">Home Page</a></li>
+            <li><a href="about.html" class="cliPrompt">About</a></li>
+            <li><a href="table.html" class="cliPrompt">Table Content</a></li>
+            <li><a href="contact.html" class="cliPrompt">Contact Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contatiner">
+            <article>
+                <div class="cliWhole">
+                    <div class="cliBar">
+                        <div class="cliButton closeButton"></div>
+                        <div class="cliButton minimizeButton"></div>
+                        <div class="cliButton maximizeButton"></div>
+                    </div>
+                    <div class="cliBody">
+                        <h3 class="cliPromptLine cliPrompt">tyl contact</h3>
+                        <aside class="formWrapper">
+                            <form action="contact.html" method="POST">
+                                <label class="required">Type of Feedback</label>
+                                <select required>
+                                    <option value="" disabled selected></option>
+                                    <optgroup label="Home">
+                                        <option value="homeUiUxImprovement">UI/UX Improvement</option>
+                                        <option value="homeWrongContent">Wrong Content</option>
+                                        <option value="homeMisprintTypo">Misprint/Typo</option>
+                                        <option value="homeOther">Other</option>
+                                    </optgroup>
+                                    <optgroup label="About">
+                                        <option value="aboutUiUxImprovement">UI/UX Improvement</option>
+                                        <option value="aboutWrongContent">Wrong Content</option>
+                                        <option value="aboutMisprintTypo">Misprint/Typo</option>
+                                        <option value="aboutOther">Other</option>
+                                    </optgroup>
+                                    <optgroup label="Table">
+                                        <option value="tableUiUxImprovement">UI/UX Improvement</option>
+                                        <option value="tableWrongContent">Wrong Content</option>
+                                        <option value="tableMisprintTypo">Misprint/Typo</option>
+                                        <option value="tableOther">Other</option>
+                                    </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="other">other</option>
+                                    </optgroup>
+                                </select>
+                                <label class="required">Name</label>
+                                <aside class="horizontal">
+                                    <input type="text" placeholder="First" required>
+                                    <input type="text" placeholder="Last" required>
+                                </aside>
+                                <label class="required">Age</label>
+                                <input type="number" placeholder="Number" required>
+                                <label class="required">Email Address</label>
+                                <input type="email" placeholder="xxxx@xxxx.com" required>
+                                <label class="required">Contact Number</label>
+                                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000"
+                                    required>
+                                <label class="required">Visited date and time</label>
+                                <aside class="horizontal">
+                                    <input type="date" placeholder="Date" required>
+                                    <input type="time" placeholder="Time" required>
+                                </aside>
+                                <table>
+                                    <caption class="required">What's your favorite os?</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Linux</th>
+                                            <th>MacOS</th>
+                                            <th>Microsoft Windows</th>
+                                            <th>Other</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="radio" name="os" value="Linux" required></td>
+                                            <td><input type="radio" name="os" value="MacOS" required></td>
+                                            <td><input type="radio" name="os" value="Microsoft Windows" required></td>
+                                            <td><input type="radio" name="os" value="Other" required></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <label>Any comments, questions or suggestions?</label>
+                                <textarea cols="30" rows="10" placeholder="Free messages"></textarea>
+                                <aside class="horizontalButton">
+                                    <input type="reset" value="Clear">
+                                    <input type="submit" value="Send">
+                                </aside>
+                            </form>
+                        </aside>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Tyler Inari</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Content</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/table.css">
+</head>
+
+<body>
+    <header>
+        <article>
+            <h1>Hello Table!</h1>
+            <h4>tyl table</h4>
+        </article>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="cliPrompt">Home Page</a></li>
+            <li><a href="about.html" class="cliPrompt">About</a></li>
+            <li><a href="table.html" class="cliPrompt">Table Content</a></li>
+            <li><a href="contact.html" target="_blank" class="cliPrompt">Contact Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contatiner">
+            <article>
+                <div class="cliWhole">
+                    <div class="cliBar">
+                        <div class="cliButton closeButton"></div>
+                        <div class="cliButton minimizeButton"></div>
+                        <div class="cliButton maximizeButton"></div>
+                    </div>
+                    <div class="cliBody">
+                        <h3 class="cliPromptLine cliPrompt">tyl table</h3>
+                        <table>
+                            <caption>Basic UNIX commands</caption>
+                            <thead>
+                                <tr>
+                                    <th>#Command</th>
+                                    <th>Args</th>
+                                    <th>Option</th>
+                                    <th>Description</th>
+                                    <th>command fullname</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>man</td>
+                                    <td>command</td>
+                                    <td></td>
+                                    <td>format and display the on-line manual pages</td>
+                                    <td>manual page</td>
+                                </tr>
+                                <tr>
+                                    <td>cd</td>
+                                    <td>destination directry</td>
+                                    <td></td>
+                                    <td>change directry</td>
+                                    <td>change directry</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">ls</td>
+                                    <td rowspan="3">destination dir</td>
+                                    <td></td>
+                                    <td>list dir contents</td>
+                                    <td rowspan="3">list</td>
+                                </tr>
+                                <tr>
+                                    <td>-a</td>
+                                    <td>
+                                        Include dir entries whose names begin with a dot (‘.’).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>-l</td>
+                                    <td>
+                                        Follow all symbolic links to final target and list the file or dir the
+                                        link references rather than the link itself. This option cancels the -P option.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">mv</td>
+                                    <td>source target</td>
+                                    <td rowspan="2"></td>
+                                    <td>
+                                        move files (rename files)
+                                    </td>
+                                    <td rowspan="2">move</td>
+                                </tr>
+                                <tr>
+                                    <td>source ... dir</td>
+                                    <td>
+                                        move files
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">cp</td>
+                                    <td>source_file target_file</td>
+                                    <td rowspan="2"></td>
+                                    <td>
+                                        copy files
+                                    </td>
+                                    <td rowspan="3">copy</td>
+                                </tr>
+                                <tr>
+                                    <td>source_file ... target_dir</td>
+                                    <td>
+                                        copy files to a dir
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>source_dir target_dir</td>
+                                    <td>-r</td>
+                                    <td>
+                                        copy a dir
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">rm</td>
+                                    <td>file ...</td>
+                                    <td></td>
+                                    <td>
+                                        remove files
+                                    </td>
+                                    <td rowspan="3">remove</td>
+                                </tr>
+                                <tr>
+                                    <td>dir ...</td>
+                                    <td>-r</td>
+                                    <td>
+                                        remove dirs
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>file ...</td>
+                                    <td>-f</td>
+                                    <td>
+                                        remove files force
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>diff</td>
+                                    <td>FILES</td>
+                                    <td></td>
+                                    <td>
+                                        compare files line by line
+                                    </td>
+                                    <td>different</td>
+                                </tr>
+                                <tr>
+                                    <td>mkdir</td>
+                                    <td>dir_name ...</td>
+                                    <td></td>
+                                    <td>
+                                        make directories
+                                    </td>
+                                    <td>make dir</td>
+                                </tr>
+                                <tr>
+                                    <td>pwd</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        return working directory name
+                                    </td>
+                                    <td>print work dir</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="5">More detailed information can be obtained with the `man` command.
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Tyler Inari</p>
+    </footer>
+</body>
+
+</html>

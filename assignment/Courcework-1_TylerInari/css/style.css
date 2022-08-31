@@ -1,0 +1,198 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url("../img/landscape_00006.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border-top: 2px solid rgb(52, 152, 219);
+    border-bottom: 2px solid rgb(52, 152, 219);
+}
+
+header article {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+header h1 {
+    text-transform: capitalize;
+    color: rgb(21, 67, 96);
+}
+
+header h3 {
+    color: rgb(21, 67, 96);
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgb(52, 152, 219);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav li {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    /* background-color: darkblue; */
+    background: linear-gradient(to bottom, rgb(93, 173, 226) 50%, rgb(52, 152, 219) 50%);
+    color: white;
+    width: 100%;
+    padding: 5%;
+}
+
+nav a:hover {
+    /* background-color: darkcyan; */
+    background: linear-gradient(to bottom, rgb(93, 173, 226) 10%, rgb(214, 234, 248) 90%);
+    color: rgb(40, 116, 166);
+}
+
+.left article {
+    background-color: rgb(93, 173, 226);
+    padding: 5%;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+
+.left article h3 {
+    color: rgb(5, 70, 120);
+    text-transform: capitalize;
+    padding-bottom: 3%;
+}
+
+.left article a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.left article a:hover {
+    text-decoration: underline;
+    color: rgb(40, 116, 166);
+}
+
+.left article p {
+    text-align: justify
+}
+
+.left aside {
+    padding: 1%;
+    margin: 3%;
+}
+
+.left aside h3 {
+    text-transform: capitalize;
+    padding-bottom: 3%;
+}
+
+.left aside p {
+    display: flex;
+    flex-direction: column;
+    text-align: justify
+}
+
+.left a {
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    width: 30%;
+    float: right;
+}
+
+figure img {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.right>h3 {
+    color: rgb(5, 70, 120);
+    padding-bottom: 3%;
+}
+
+.right article p {
+    width: 100%;
+    padding: 5%;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+
+.right aside {
+    background-color: rgb(232, 232, 232);
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+.right aside h3 {
+    padding-bottom: 1%;
+}
+
+.right aside p {
+    padding-bottom: 1%;
+}
+
+.right aside p:last-child {
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+.right aside a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(52, 152, 219);
+}
+
+footer p {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    background-color: rgb(174, 214, 241);
+    width: 30%;
+    /* height: 100%; */
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,79 @@
+header article {
+    background-color: rgb(50, 50, 50);
+}
+
+main {
+    background-color: rgb(50, 50, 50);
+}
+
+.contatiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+section article {
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border: 1px dotted rgb(225, 225, 225);
+    box-sizing: border-box;
+}
+
+caption {
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px dotted rgb(225, 225, 225);
+}
+
+thead {
+    text-transform: capitalize;
+    width: 100%;
+}
+
+th {
+    color: rgb(225, 225, 225);
+    border: 1px dotted rgb(225, 225, 225);
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+th:nth-child(1) {
+    width: 15%;
+}
+
+th:nth-child(2) {
+    width: 15%;
+}
+
+th:nth-child(3) {
+    width: 10%;
+}
+
+th:nth-child(4) {
+    width: 45%;
+}
+
+th:nth-child(5) {
+    width: 15%;
+}
+
+tbody {
+    width: 100%;
+}
+
+td {
+    color: rgb(225, 225, 225);
+    padding: 1%;
+    border: 1px dotted rgb(225, 225, 225);
+    box-sizing: border-box;
+}
+
+tfoot td {
+    text-align: center;
+}

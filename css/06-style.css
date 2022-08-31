@@ -1,0 +1,152 @@
+* {
+  /* SANITIZE */
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+nav {
+  border-top: 8px solid forestgreen;
+  background-color: rgb(0, 100, 0);
+  text-transform: uppercase;
+  /* height: 30vh; */
+  height: 29vh;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav li {
+  height: 100%;
+  border-bottom: 1px dotted white;
+  transition: .4s;
+  list-style-type: none;
+}
+
+nav a::before {
+  content: "\2A00\0009";
+}
+
+nav li:hover {
+  background-color: forestgreen;
+  cursor: pointer;
+}
+
+nav a {
+  height: 100%;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.left {
+  width: 65%;
+}
+
+/* .left>header h1 {
+  font-size: 40px;
+  padding: 3%;
+  padding-left: 0%;
+  color: olivedrab;
+  text-transform: uppercase;
+  padding-right: 10px;
+} */
+
+.left h1 {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  color: forestgreen;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.left>header span {
+  color: firebrick;
+}
+
+.left aside {
+  background-image: url("../static/img/landscape_00000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.left aside h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.left h2 {
+  color: forestgreen;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-top: 3vh;
+}
+
+.left h3 {
+  padding-bottom: 3vh;
+}
+
+.left p {
+  line-height: 2.5;
+  padding-bottom: 3vh;
+}
+
+.right {
+  width: 35%;
+  padding-top: 9%;
+}
+
+.right img {
+  width: 80%;
+  height: 10vh;
+}
+
+.right>section>article:first-child,
+.right>section>article:nth-child(2) {
+  padding: 5%;
+}
+
+.right figure {
+  display: flex;
+  padding-left: 3%;
+  flex-direction: column;
+  row-gap: 3vh;
+  padding-left: 5%;
+}
+
+figure h4 {
+  font-size: 18px;
+  color: dimgray;
+}
+
+figure {
+  width: 80%;
+  text-align: justify;
+}
+
+.right article:last-child p {}
+
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  font-weight: 600;
+}

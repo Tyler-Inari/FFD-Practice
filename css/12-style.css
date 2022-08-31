@@ -1,0 +1,194 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(100, 15, 100);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: fit-content;
+}
+
+header {
+    background-color: rgb(223, 206, 223);
+    padding: 1%;
+}
+
+h1 {
+    color: rgb(195, 4, 200);
+    width: 98%;
+    padding: 1%;
+    text-align: right;
+}
+
+header aside {
+    background-image: url("../static/img/landscape_00007.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    border-radius: 50px;
+}
+
+.container {
+    background-color: rgb(223, 206, 223);
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+nav li {
+    display: flex;
+    width: 100%;
+}
+
+nav a {
+    color: rgb(195, 4, 200);
+    width: 100%;
+    text-align: center;
+}
+
+nav a:hover {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+}
+
+.left article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+    padding: 1%;
+}
+
+.left h2 {
+    text-transform: uppercase;
+    width: 100%;
+    color: rgb(10, 10, 10);
+    border-top: 1px dotted rgb(195, 4, 200);
+    border-bottom: 1px dotted rgb(195, 4, 200);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.left h2 span {
+    color: rgb(195, 4, 200);
+}
+
+.left article>blockquote {
+    color: rgb(160, 155, 10);
+    width: 80%;
+}
+
+.left aside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left article aside p {
+    width: 80%;
+    height: 100%;
+}
+
+.left aside blockquote {
+    width: 20%;
+    height: fit-content;
+}
+
+.left span {
+    color: rgb(195, 4, 200);
+}
+
+.left span>span {
+    color: rgb(160, 155, 10);
+}
+
+.left article:last-child {
+    display: block;
+}
+
+.left article:last-child aside {
+    background-color: rgb(195, 4, 200);
+    width: 50px;
+    height: 50px;
+    border: 10px solid rgb(223, 206, 223);
+    float: left;
+}
+
+.right {
+    width: 30%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.right h2 {
+    text-transform: uppercase;
+    color: rgb(223, 206, 223);
+    background-color: rgb(100, 15, 100);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.right article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.right aside {
+    background-color: rgb(240, 145, 180);
+    padding: 3%;
+}
+
+.right p {
+    padding-bottom: 3vh;
+}
+
+.right ul {
+    list-style-type: none;
+    width: 95%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.right li {
+    width: 100%;
+}
+
+.right a {
+    color: rgb(10, 10, 10);
+}
+
+.right a:hover {
+    color: rgb(195, 4, 200);
+}
+
+footer {
+    background-color: rgb(223, 206, 223);
+    width: 98%;
+    padding: 1%;
+}

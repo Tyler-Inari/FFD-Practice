@@ -1,0 +1,199 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(38, 104, 218);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main {
+    background-color: rgb(74, 74, 74);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    background-image: url("../static/img/landscape_00008.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header h1 {
+    background-color: rgb(38, 104, 218);
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(50, 50, 50, 0.75);
+    text-transform: capitalize;
+    color: rgb(74, 74, 74);
+    width: fit-content;
+    padding: 1%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+header ul {
+    background-color: rgb(38, 104, 218);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    display: flex;
+    width: 100%;
+}
+
+header li {
+    display: flex;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    width: 100%;
+    padding: 5%;
+}
+
+header a:hover {
+    color: white;
+}
+
+.content {
+    background-color: rgb(172, 202, 255);
+    display: flex;
+}
+
+.left {
+    width: 25%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.left article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+
+}
+
+.left ul {
+    padding-left: 20%;
+}
+
+legend {
+    font-size: 15px;
+    color: rgb(74, 74, 74);
+}
+
+fieldset {
+    padding: 3%;
+}
+
+fieldset input {
+    width: auto;
+}
+
+.right {
+    background-color: rgb(220, 233, 255);
+    width: 75%;
+    padding: 5% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+.right h2 {
+    color: rgb(38, 104, 218);
+}
+
+.right span {
+    color: rgb(0, 140, 10);
+}
+
+.right blockquote a {
+    color: rgb(38, 104, 218);
+    text-decoration: none;
+    text-align: center;
+}
+
+.right article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 2vh;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+figure {
+    float: left;
+    width: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.right blockquote:first-child {
+    width: 80%;
+    text-align: left;
+}
+
+.right blockquote {
+    color: rgb(0, 140, 10);
+    width: 80%;
+    padding: 1%;
+    text-align: center;
+}
+
+.right ul {
+    list-style-type: none;
+    display: flex;
+    width: 70%;
+}
+
+.right li {
+    width: 100%;
+}
+
+.right ul a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(38, 104, 218);
+    /* padding: 0% 1% 0% 1%; */
+}
+
+.right aside {
+    border: 1px dotted rgb(74, 74, 74);
+    padding: 1%;
+}
+
+time {
+    color: rgb(74, 74, 74);
+}
+
+footer {
+    background-color: rgb(172, 202, 255);
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(38, 104, 218);
+}

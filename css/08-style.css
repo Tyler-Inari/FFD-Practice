@@ -1,0 +1,179 @@
+* {
+    /* SANITIZE */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-transform: capitalize;
+    padding-bottom: 2vh;
+}
+
+header {
+    background-image: url("../static/img/landscape_00007.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    padding: 3%;
+}
+
+header article {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1,
+header h3 {
+    letter-spacing: 3px;
+}
+
+header h1 {
+    text-transform: capitalize;
+}
+
+header h3 {
+    padding-left: 3%;
+}
+
+nav {
+    background-color: palevioletred;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: pink;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    width: 25%;
+    padding: 1%;
+}
+
+.left article {
+    padding-bottom: 10%;
+}
+
+.left ul {
+    list-style-type: none;
+    color: palevioletred;
+}
+
+.left li {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+}
+
+.left a {
+    text-decoration: none;
+    color: plum;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.left a:hover {
+    background-color: rgba(gray, 0.6);
+    color: orange;
+}
+
+.left h2 {
+    color: palevioletred;
+    padding: 3%;
+    padding-left: 0;
+}
+
+.right {
+    width: 75%;
+    padding: 1%;
+}
+
+.right article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.right aside {
+    background-color: silver;
+}
+
+
+.right ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 1%
+}
+
+.right p {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.right h2 {
+    color: palevioletred;
+    width: 100%;
+    padding: 3%;
+    padding-left: 0;
+}
+
+blockquote {
+    /* border: 1px solid black; */
+    color: burlywood;
+    width: 60%;
+    text-align: center;
+}
+
+.right p,
+.right aside {
+    width: 100%;
+}
+
+footer {
+    background-color: palevioletred;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
