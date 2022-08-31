@@ -213,26 +213,49 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .cliFigureCaption {
     width: 100%;
 }
 
-.cliFigureCaption p {
+.cliBody h3 {
+    color: rgb(240, 240, 240);
+}
+
+.cliBody p {
     color: rgb(225, 225, 225);
 }
 
-.cliFigureCaption time {
+.cliBody time {
     color: rgb(10, 90, 140);
 }
 
-.cliImg {
-    width: 100%;
+.cliNews {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3%;
 }
 
-.cliImgHalf {
-    width: 50%;
+.cliImg {
+    width: 90%;
+    border: 1px solid rgba(20, 20, 20, 0.35);
+    border-radius: 30px;
+    box-shadow: 6px 6px 6px 6px rgba(20, 20, 20, 0.35);
+    margin: 5%;
+}
+
+.cliImgQuarter {
+    width: 20%;
+    height: fit-content;
+    object-fit: contain;
+    border: 1px solid rgba(20, 20, 20, 0.35);
+    border-radius: 30px;
+    margin: 1%;
+    box-shadow: 6px 6px 6px 6px rgba(20, 20, 20, 0.35);
 }
 
 .cliImgCover {

@@ -73,3 +73,7 @@ td {
     border: 1px dotted rgb(225, 225, 225);
     box-sizing: border-box;
 }
+
+tfoot td {
+    text-align: center;
+}
