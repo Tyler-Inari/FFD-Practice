@@ -49,6 +49,13 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>man</td>
+                                    <td>command</td>
+                                    <td></td>
+                                    <td>format and display the on-line manual pages</td>
+                                    <td>manual page</td>
+                                </tr>
+                                <tr>
                                     <td>cd</td>
                                     <td>destination directry</td>
                                     <td></td>
@@ -57,110 +64,110 @@
                                 </tr>
                                 <tr>
                                     <td rowspan="3">ls</td>
-                                    <td rowspan="3">destination directory</td>
+                                    <td rowspan="3">destination dir</td>
                                     <td></td>
-                                    <td>lists your files</td>
+                                    <td>list dir contents</td>
                                     <td rowspan="3">list</td>
-                                </tr>
-                                <tr>
-                                    <td>-l</td>
-                                    <td>
-                                        lists your files in 'long format', which contains lots of useful information,
-                                        e.g.
-                                        the exact
-                                        size of the file, who owns the file and who has the right to look at it, and
-                                        when it
-                                        was
-                                        last modified.
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>-a</td>
                                     <td>
-                                        lists all files, including the ones whose filenames begin in a dot, which you do
-                                        not
-                                        always
-                                        want to see.
+                                        Include dir entries whose names begin with a dot (‘.’).
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>mv</td>
-                                    <td>filename1 filename2</td>
-                                    <td></td>
+                                    <td>-l</td>
                                     <td>
-                                        moves a file (i.e. gives it a different name, or moves it into a different
-                                        directory
-                                        (see below)
+                                        Follow all symbolic links to final target and list the file or dir the
+                                        link references rather than the link itself. This option cancels the -P option.
                                     </td>
-                                    <td>move</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="2">cp</td>
-                                    <td>filename1 filename2</td>
-                                    <td></td>
+                                    <td rowspan="2">mv</td>
+                                    <td>source target</td>
+                                    <td rowspan="2"></td>
                                     <td>
-                                        copies a file
+                                        move files (rename files)
                                     </td>
-                                    <td rowspan="2">copy</td>
+                                    <td rowspan="2">move</td>
                                 </tr>
                                 <tr>
-                                    <td>filedir1 filedir2</td>
+                                    <td>source ... dir</td>
+                                    <td>
+                                        move files
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">cp</td>
+                                    <td>source_file target_file</td>
+                                    <td rowspan="2"></td>
+                                    <td>
+                                        copy files
+                                    </td>
+                                    <td rowspan="3">copy</td>
+                                </tr>
+                                <tr>
+                                    <td>source_file ... target_dir</td>
+                                    <td>
+                                        copy files to a dir
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>source_dir target_dir</td>
                                     <td>-r</td>
                                     <td>
-                                        copies a directory
+                                        copy a dir
                                     </td>
                                 </tr>
                                 <tr>
                                     <td rowspan="3">rm</td>
-                                    <td>filename</td>
+                                    <td>file ...</td>
                                     <td></td>
                                     <td>
-                                        removes a file. It is wise to use the option rm -i, which will ask you for
-                                        confirmation before actually deleting anything. You can make this your default
-                                        by making an alias in your .cshrc file.
+                                        remove files
                                     </td>
                                     <td rowspan="3">remove</td>
                                 </tr>
                                 <tr>
-                                    <td>filedir</td>
+                                    <td>dir ...</td>
                                     <td>-r</td>
                                     <td>
-                                        remove a directory
+                                        remove dirs
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>filename</td>
+                                    <td>file ...</td>
                                     <td>-f</td>
                                     <td>
-                                        remove a file force
+                                        remove files force
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>diff</td>
-                                    <td>filename1 filename2</td>
+                                    <td>FILES</td>
                                     <td></td>
                                     <td>
-                                        compares files, and shows where they differ
+                                        compare files line by line
                                     </td>
                                     <td>different</td>
                                 </tr>
                                 <tr>
                                     <td>mkdir</td>
-                                    <td>dirname</td>
+                                    <td>dir_name ...</td>
                                     <td></td>
                                     <td>
-                                        make a new directory
+                                        make directories
                                     </td>
-                                    <td>make directory</td>
+                                    <td>make dir</td>
                                 </tr>
                                 <tr>
                                     <td>pwd</td>
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        tells you where you currently are.
+                                        return working directory name
                                     </td>
-                                    <td>print work directory</td>
+                                    <td>print work dir</td>
                                 </tr>
                             </tbody>
                         </table>
