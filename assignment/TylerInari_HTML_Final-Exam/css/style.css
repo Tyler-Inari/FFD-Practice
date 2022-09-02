@@ -1,0 +1,176 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "JetBrains Mono";
+}
+
+body {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: seagreen;
+    font-size: 36px;
+    width: 100%;
+    border-bottom: 2px solid seagreen;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+.left {
+    background-color: cornflowerblue;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+}
+
+.left figure {
+    width: 100%;
+    margin-top: 7vh;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li {
+    width: 100%;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    width: 100%;
+    padding: 5%;
+}
+
+nav a:hover {
+    background-color: seagreen;
+}
+
+.right {
+    background-color: whitesmoke;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+header article {
+    background-color: black;
+    width: fit-content;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+}
+
+header p {
+    text-transform: capitalize;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    row-gap: 3vh;
+}
+
+main aside {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+}
+
+main figure {
+    width: 20%;
+    padding: 1%;
+}
+
+main article:last-child p {
+    width: 80%;
+    padding: 1%;
+}
+
+table {
+    width: 60%;
+    border: 1px solid cornflowerblue;
+}
+
+caption {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+tbody {
+    text-align: center;
+}
+
+tfoot {
+    text-align: right;
+}
+
+fieldset {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+select,
+input {
+    margin-bottom: 5%;
+}
+
+label {
+    width: 100%;
+}
+
+select,
+input {
+    width: 20%;
+    margin-right: 5px;
+    padding: 1%;
+}
+
+select {
+    background-color: gainsboro;
+}
+
+[type="submit"],
+[type="reset"] {
+    background-color: gainsboro;
+    border-radius: 3px;
+    padding: 1%;
+}
