@@ -2,3 +2,6 @@
 
 # big binary
 *.zip
+
+# vscode
+.vscode
